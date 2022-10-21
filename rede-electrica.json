@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {"name": "t4",                      "group": 1},
+    {"name": "t2",                      "group": 1},
+    {"name": "exterior",                "group": 1},
+    {"name": "t4-cozinha",                 "group": 2},
+    {"name": "t4-sala",                    "group": 2},
+    {"name": "t4-corredor",                "group": 2},
+    {"name": "t4-suite",                   "group": 2},
+    {"name": "t4-maria",                   "group": 2},
+    {"name": "t4-escritório",              "group": 2},
+    {"name": "t4-visitas",                 "group": 2},
+    {"name": "t4-wc",                      "group": 2},
+    {"name": "t4-wcsuite",                "group": 2},
+    {"name": "t4-dispensa",                "group": 2},
+    {"name": "t4-sauna",                "group": 2},
+    {"name": "t2-quarto1",                "group": 2},
+    {"name": "t2-cozinha",                "group": 2},
+    {"name": "t2-sala",                "group": 2},
+    {"name": "t2-corredor",                "group": 2},
+    {"name": "t2-quarto2",                "group": 2},
+    {"name": "t2-wc",                "group": 2},
+    {"name": "t4-cozinha-cx-portarua",                "group": 3},
+    {"name": "t4-cozinha-cx-portapiscina",                "group": 3},
+    {"name": "t4-cozinha-cx-janela",                "group": 3},
+
+  ],
+
+  "links":  [
+    { "source":  "T4",  "target":  "cozinha",  "value":  0 },
+    { "source":  "T4",  "target":  "sala",  "value":  0 },
+    { "source":  "T4",  "target":  "corredor",  "value":  0 },
+    { "source":  "T4",  "target":  "suite",  "value":  0 },
+    { "source":  "T4",  "target":  "maria",  "value":  0 },
+    { "source":  "T4",  "target":  "escritório",  "value":  0 },
+    { "source":  "T4",  "target":  "visitas",  "value":  0 },
+    { "source":  "T4",  "target":  "wc",  "value":  0 },
+    { "source":  "T4",  "target":  "wc suite",  "value":  0 }
+  ]
+}

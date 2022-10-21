@@ -1,0 +1,66 @@
+T4:
+  Quadro:
+    ic1: x
+    ic2: x
+    ic3: x
+    ic4: x
+    ic5: x
+    ic6: x
+    ib1: x
+    ib2: x
+    ib3: x
+    ib4: x
+    ib5: x
+    ib6: x
+  Suite: x
+  Visitas: x
+  Maria: x
+  Escritório:
+    caixacima:
+      nne: x
+      ene: x
+      ese: t4-escritório-interruptor
+      wsw: x
+      wnw: x
+      nnw: x
+    caixabaixo:
+      ene: x
+      ese: x
+      wsw: x
+      wnw: x
+    interruptor: .
+    tecto: x
+    tomadasul: x
+    tomadanorte: x
+  WC:
+    caixa:
+      ene: t4-wc-interruptor
+      wnw: t4-wc-luzes
+      wsw: t4-quadro
+    luzes: .
+    interruptor: .
+  Corredor:
+    caixa:
+      nne: t4-corredor-aplique1
+      ene: t4-quadro
+      ese: t4-corredor-interruptorduplo-nnw
+      sse: t4-corredor-aplique2
+      wsw: t4-corredor-interruptor1
+      wnw: t4-corredor-aplique3
+    interruptor1: .
+    interruptorduplo:
+      nnw: .
+      ese: t4-corredor-interruptor2-s
+    interruptor2:
+      s: .
+      n: t4-corredor-luztecto
+    aplique1: .
+    aplique2: .
+    aplique3: .
+    luztecto: .
+  Sala: x
+  Cozinha: x
+  Porta rua: x
+  Porta escadas: x
+T2:
+  Quadro: x
